@@ -16,12 +16,8 @@ header{
 	padding-top: 250px;
 	padding-bottom: 220px;
 }
-header,
 footer{
 	background-color: #333;
-}
-footer{
-	padding-top: 70px;
 	padding-bottom: 90px;
 }
 .hero-text{
@@ -67,7 +63,6 @@ h2{
 	color: #333;
 	text-transform: uppercase;
 }
-
 .thirdh2{
 	color: #fff;
 }
@@ -196,7 +191,9 @@ p{
 	font-weight: 400;
 
 }
-
+.con_btn a:hover{
+    background: #333
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -213,6 +210,10 @@ ul {
   	line-height: 1.875rem;
   	color: #646464;
   	padding-right: 10px;
+  	padding-left: 10px;
+}
+.nav_bar a:hover{
+    background: #262626;
 }
 a{
 	text-decoration: none;
@@ -226,13 +227,15 @@ a{
 .gray-icon{
 	font-size: 0.875rem;
 	background: #d2d1cf;
-	padding: 0.4em;
+	padding: 0.6em;
+	margin-right: 5px;
 	text-align: left;
 	display: inline;
 	border-radius: 50%;
 }
 .main-block{
 	width: 80%;
+	padding-top: 40px;
 }
 .side-block{
 	width: 20%;
@@ -250,7 +253,6 @@ a{
 .contact_image{
 	background-image: url("../images/optimized/man_computer-min.jpg");
   	background-position: center;
-  	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
   	width: 100%;
@@ -261,3 +263,18 @@ a{
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }	
+input{
+	font-family: Lato;
+	font-size: 3.75rem;
+	font-weight: 300;
+	color: #fff;
+	line-height: 1.875rem;
+  	width: 80%;
+  	margin-top: 40px;
+  	border: none;
+  	background: transparent; 
+  	box-sizing: border-box;
+}
+input:focus {
+  outline:none;
+}
