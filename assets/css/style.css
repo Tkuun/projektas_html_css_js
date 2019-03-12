@@ -30,6 +30,7 @@ footer,
 	line-height: 5.625rem;
 	color: #ffffff;
 	text-transform: uppercase;
+	margin-bottom: 0px;
 }
 .hero-text:after {
   content: "";
@@ -66,6 +67,7 @@ h2{
 }
 .thirdh2{
 	color: #fff;
+	margin-bottom: 0px;
 }
 h3{
 	text-align: left;
@@ -79,6 +81,7 @@ h3{
 }
 .footerh3{
 	color: #fff;
+	margin-bottom: 0px;
 }
 h5{
 	text-align: left;
@@ -97,6 +100,9 @@ p{
 	letter-spacing: 0em;
 	line-height: 1.875rem;
 	color: #646464;
+}
+.side-block p{
+	margin-top: 0px;
 }
 .info_text{
 	color: #ffffff;
@@ -233,6 +239,7 @@ a{
 	font-size: 0.875rem;
 	background: #d2d1cf;
 	padding: 0.6em;
+	margin-top: 25px;
 	margin-right: 5px;
 	text-align: left;
 	display: inline;
@@ -282,4 +289,8 @@ input{
 }
 input:focus {
   outline:none;
+}
+img{
+	width: 21%;
+	align-items: center;
 }
