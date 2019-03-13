@@ -43,7 +43,7 @@ footer,
   content: "";
   display: block;
   width: 160px;
-  margin: 70px auto 30px;
+  margin: 30px auto 30px;
   border-bottom: 3px solid #da491c;
 }  
 h4{
@@ -205,7 +205,7 @@ p{
 .con_btn a:hover{
     background: #333
 }
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -290,7 +290,7 @@ input{
 input:focus {
   outline:none;
 }
-img{
+.flex_container>a{
 	width: 21%;
-	align-items: center;
+	margin-bottom: 25px;
 }
