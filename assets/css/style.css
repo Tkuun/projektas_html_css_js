@@ -16,6 +16,27 @@ header{
 	padding-top: 250px;
 	padding-bottom: 220px;
 }
+nav{
+	background-color: #333;
+	position: fixed;
+	z-index: 1;
+  	top: 0;
+  	width: 100%;
+}
+.main_nav a{
+  	display: block;
+ 	padding: 15px;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 1.125rem;
+	letter-spacing: 0em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.main_nav a:hover {
+  background-color: #262626;
+}
+
 footer,
 .gallery_section{
 	background-color: #333;
@@ -291,6 +312,6 @@ input:focus {
   outline:none;
 }
 .flex_container>a{
-	width: 21%;
+	width: 23%;
 	margin-bottom: 25px;
 }
