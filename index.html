@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 
-<html lang="lt">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Projektas</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Merriweather:300,400|Open+Sans:600,700|Raleway:700i,900i&amp;subset=latin-ext" rel="stylesheet">
+		<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 	</head>
-	<body>
+	<body id="page-top">
+		<nav>
+			<div class="container">
+				<ul class="main_nav flex_container1">
+					<li><a href="#page-top">Home</a></li>
+					<li><a href="#info">Info</a></li>
+					<li><a href="#photo_section">Gallery</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#social">Social Networks</a></li>
+				</ul>
+			</div>	
+		</nav>
+		<!-- Header start -->
 		<header class="hero-image">
 			<div class="container">
-				<h1 class="hero-text">Pavadinimas</h1>
+				<h1 class="hero-text">Your company title</h1>
 				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae gravida est. Suspendisse eget justo laoreet, porttitor turpis sit amet, dignissim lacus. </h4>
 			</div>
 		</header>
-		<section class="container white_section">
+		<!-- Info section -->
+		<section class="container info_section" id="info">
 			<div>
 				<h2>Lorem ipsum dolor sit amet</h2>
 				<h5 class="red_line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae gravida est. Suspendisse eget justo laoreet, porttitor turpis sit amet, dignissim lacus. </h5>
@@ -53,7 +67,43 @@
 				</div>
 			</div>
 		</section>
-		<section class="grey_section contact_image">
+		<!-- Gallery section -->
+		<section class="gallery_section" id="photo_section">
+			<div class="container">
+				<h3 class="footerh3">Image gallery</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae gravida est. Suspendisse eget justo laoreet, porttitor turpis sit amet, dignissim lacus.</p>
+				<p class="imglist" style="max-width: 1300px">
+					<div class="flex_container">
+					<a href="assets/images/optimized/stefan-steinbauer-605009-unsplash-min.jpg" data-fancybox="gallery" data-caption="Our working space">
+						<img src="assets/images/optimized/thumbnail/stefan-steinbauer-605009-unsplash-min.jpeg" alt="man working on a computer" />
+					</a>
+					<a href="assets/images/optimized/helena-lopes-633154-unsplash-min.jpg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/helena-lopes-633154-unsplash-min.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					<a href="assets/images/optimized/ali-yahya-508871-unsplash-min.jpg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/ali-yahya-508871-unsplash-min.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					<a href="assets/images/optimized/farzad-nazifi-71686-unsplash-min.jpg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/farzad-nazifi-71686-unsplash-min.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					<a href="assets/images/optimized/kody-dahl-275164-unsplash-min.jpg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/kody-dahl-275164-unsplash-min.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					<a href="assets/images/optimized/sergey-zolkin-192937-unsplash-min.jpg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/sergey-zolkin-192937-unsplash-min.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					<a href="assets/images/optimized/carlos-muza-84523-unsplash.jpeg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/carlos-muza-84523-unsplash.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					<a href="assets/images/optimized/ilya-pavlov-87438-unsplash.jpeg" data-fancybox="gallery" data-caption="Chill lounge">
+						<img src="assets/images/optimized/thumbnail/ilya-pavlov-87438-unsplash.jpeg" alt="two workers sitting in the chill lounge" />
+					</a>
+					</div>
+				</p>
+			</div>
+		</section>
+		<!-- Contact section -->
+		<section class="contact_section contact_image" id="contact">
 			<div class="container">
 				<div class="grey_sec_container">
 					<h2 class="thirdh2">Lorem ipsum dolor</h2>
@@ -64,13 +114,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="gallery_section">
-			<div class="container">
-				
-			</div>
-		</section>
+		<!-- Footer start -->
 		<footer>
-			<div class="flex_container container">
+			<div class="flex_container container" id="social">
 				<div class="main-block">
 					<div>
 						<ul class="nav_bar">
@@ -84,13 +130,14 @@
 						</ul>
 						<form>
 							<input type="email" name="mail" placeholder="Email address">
+							<input type="submit" hidden />
 						</form>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae gravida est.</p>
+						<p>If you want to contact us, enter your email for news and job oportunities</p>
 					</div>
 				</div>
 				<div class="side-block">
-					<h3 class="footerh3">Lorem</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae gravida est.</p>
+					<h3 class="footerh3">Follow us</h3>
+					<p>Lets keep in touch. Follow us on all popular social networks for new bundles, newsletters, gifts.</p>
 					<ul class="flex_container1">
 						<li>
 							<a href="https://twitter.com/" target="_blank">
@@ -121,6 +168,8 @@
 				</div>
 			</div>
 		</footer>
+		<script src="assets/scripts/jquery.js"></script>
+		<script src="assets/scripts/jquery.fancybox.min.js"></script>
 		<script src="assets/scripts/custom.js"></script>		
 	</body>
 </html>

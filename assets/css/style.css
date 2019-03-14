@@ -16,7 +16,29 @@ header{
 	padding-top: 250px;
 	padding-bottom: 220px;
 }
-footer{
+nav{
+	background-color: #333;
+	position: fixed;
+	z-index: 1;
+  	top: 0;
+  	width: 100%;
+}
+.main_nav a{
+  	display: block;
+ 	padding: 15px;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 1.125rem;
+	letter-spacing: 0em;
+	color: #646464;
+	text-transform: uppercase;
+}
+.main_nav a:hover {
+  background-color: #262626;
+}
+
+footer,
+.gallery_section{
 	background-color: #333;
 	padding-bottom: 90px;
 }
@@ -29,6 +51,7 @@ footer{
 	line-height: 5.625rem;
 	color: #ffffff;
 	text-transform: uppercase;
+	margin-bottom: 0px;
 }
 .hero-text:after {
   content: "";
@@ -41,7 +64,7 @@ footer{
   content: "";
   display: block;
   width: 160px;
-  margin: 70px auto 30px;
+  margin: 30px auto 30px;
   border-bottom: 3px solid #da491c;
 }  
 h4{
@@ -65,6 +88,7 @@ h2{
 }
 .thirdh2{
 	color: #fff;
+	margin-bottom: 0px;
 }
 h3{
 	text-align: left;
@@ -78,6 +102,7 @@ h3{
 }
 .footerh3{
 	color: #fff;
+	margin-bottom: 0px;
 }
 h5{
 	text-align: left;
@@ -97,17 +122,24 @@ p{
 	line-height: 1.875rem;
 	color: #646464;
 }
+.side-block p{
+	margin-top: 0px;
+}
 .info_text{
 	color: #ffffff;
 }
-.white_section{
+.info_section{
 	background-color: #ffffff;
 	padding-bottom: 110px;
 	padding-top: 80px;
 }
-.grey_section{
+.contact_section{
 	background-color: #262626;
 	padding-top: 110px;
+	padding-bottom: 70px;
+}
+.gallery_section{
+	padding-top: 70px;
 	padding-bottom: 70px;
 }
 .flex_container{
@@ -194,7 +226,7 @@ p{
 .con_btn a:hover{
     background: #333
 }
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -228,6 +260,7 @@ a{
 	font-size: 0.875rem;
 	background: #d2d1cf;
 	padding: 0.6em;
+	margin-top: 25px;
 	margin-right: 5px;
 	text-align: left;
 	display: inline;
@@ -235,14 +268,14 @@ a{
 }
 .main-block{
 	width: 80%;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .side-block{
 	width: 20%;
 }
 
 .hero-image{
-  background-image: url("../images/optimized/table_computer-min.jpg");
+  background-image: url("../images/optimized/table_computer-min.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -251,7 +284,7 @@ a{
 } 
 
 .contact_image{
-	background-image: url("../images/optimized/man_computer-min.jpg");
+	background-image: url("../images/optimized/man_computer-min.jpeg");
   	background-position: center;
   	background-size: cover;
   	position: relative;
@@ -267,7 +300,7 @@ input{
 	font-family: Lato;
 	font-size: 3.75rem;
 	font-weight: 300;
-	color: #fff;
+	color: #646464;
 	line-height: 1.875rem;
   	width: 80%;
   	margin-top: 40px;
@@ -277,4 +310,30 @@ input{
 }
 input:focus {
   outline:none;
+}
+.flex_container>a{
+	width: 23%;
+	margin-bottom: 25px;
+}
+@media all and (max-width: 900px){
+	.square{
+	width: calc(50% - 15px);
+	}
+	.main_nav a{
+	width: 50%;
+	}
+	.flex_container>a{
+	width: 50%;
+	}
+}
+@media all and (max-width: 600px){
+	.square{
+		width: calc(100% - 15px);
+	}
+	.main_nav a{
+	width: 100%;
+	}
+	.flex_container>a{
+	width: 100%;
+	}
 }
