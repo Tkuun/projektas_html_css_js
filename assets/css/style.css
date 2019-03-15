@@ -254,7 +254,7 @@ a{
 .nav_bar{
 	display: flex;
 	justify-content: flex-start;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 .gray-icon{
 	font-size: 0.875rem;
@@ -325,6 +325,11 @@ input:focus {
 	.flex_container>a{
 	width: 50%;
 	}
+	.nav_bar,
+	.main-block,
+	.side-block{
+	width: 50%;
+	}
 }
 @media all and (max-width: 600px){
 	.square{
@@ -334,6 +339,11 @@ input:focus {
 	width: 100%;
 	}
 	.flex_container>a{
+	width: 100%;
+	}
+	.main-block,
+	.side-block,
+	.nav_bar{
 	width: 100%;
 	}
 }
