@@ -1,5 +1,5 @@
 # projektas_html_css_js
-Web kurimo projektas
+Web development final project
 
-Finalinio puslapio kodas
+Final code
 Html Css Js (fancy box for gallery)
