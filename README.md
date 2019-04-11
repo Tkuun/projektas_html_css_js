@@ -1,5 +1,6 @@
-Web kurimo projektas<<<<<<< HEAD
+<<<<<<< HEAD
 Web kurimo projektas
+=======
 # projektas_html_css_js
 Web development final project
 
