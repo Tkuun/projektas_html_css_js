@@ -328,6 +328,10 @@ input:focus {
 	display: none;
 	flex-wrap: wrap;
 	}
+	a>img{
+		padding: 0;
+		margin: 0;
+	}
 
 	.main_nav.show{
 	display: block;
